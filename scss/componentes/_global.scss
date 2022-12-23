@@ -1,0 +1,130 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+@font-face {
+    font-family: "rigth";
+    src: url(../../recursos/tipografias/Righteous-Regular.ttf);
+}
+@font-face {
+    font-family: "ban";
+    src: url(../../recursos/tipografias/Bangers-Regular.ttf);
+}
+main {
+    background-image: radial-gradient( circle 590px at 8.2% 13.8%,  rgba(18,35,60,1) 0%, #bbb 90% );
+
+}
+@keyframes movimiento {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+ 
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+ }
+ @media (min-width: 993px) and (max-width: 1193px) {
+    .col_parrafo {
+        margin-top: 20px;
+    }
+ }
+ @media (min-width: 768px) and (max-width: 991px) {
+    .col_img {
+        margin-top: 100px;
+    }
+ }
+ @media (min-width: 567px) and (max-width: 767px) {
+    .col_parrafo {
+        font-size: 15px;
+    }
+    .col_img {
+        margin-top: 70px;
+    }
+ }
+ @media (min-width:768px) and (max-width:991px) {
+     .img_b1 {
+        position: relative;
+        margin-top: 50px;
+     }
+     .col_parrafo_b2 {
+        font-weight: 20px;
+     }
+     .img_b2 {
+        margin-top: 100px;
+        position: relative;
+     }
+     .img_b3 {
+        position: relative;
+        margin-top: 100px;
+     }
+ }
+ @media (min-width:576px) and (max-width:767px){
+    .col_parrafo_b1 {
+        font-size: 13px;
+    }
+    .img_b1 {
+        position: relative;
+        margin-top: 70px;
+    }
+    .img_b2{
+        position: relative;
+        margin-top: 120px;
+    }
+    .col_parrafo_b2{
+        font-size: 13px;
+    }
+    .col_parrafo_b3 {
+        font-size: 13px;
+    }
+    .img_b3 {
+        position: relative;
+        margin-top: 120px;
+    }
+ }
+ @media (min-width:1024px) and (max-width:1196px) {
+    .col_parrafo_b4 {
+        font-size: 20px;
+    }
+    .col_parrafo_b5 {
+        margin-left: -15px;
+    }
+ }
+ @media (min-width: 768px) and (max-width: 990px) {
+    .col_parrafo_b4{
+        position: relative;
+        font-size: 25px;
+        top: 5px;
+    }
+    .img_b4 {
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+    .col_parrafo_b5 {
+        margin-left: 150px;
+        width: 450px;
+    }
+ }
+ @media (min-width: 576px) and (max-width:767px) {
+      .nav-link {
+        margin-left: -40px;
+      }
+      .titulo_b2 {
+        margin-left: -40px;
+      }
+      .ifram_col {
+        width: 500px;
+      }
+      .img_b4 {
+        width: 500px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+      }
+      .col_parrafo_b5 {
+        width: 540px;
+        margin-bottom: 50px;
+      }
+ }
+
+

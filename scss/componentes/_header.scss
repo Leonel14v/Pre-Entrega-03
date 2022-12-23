@@ -1,0 +1,25 @@
+.nav-link {
+    color: white;
+    font-family: "rigth";
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+.navbar-brand{
+    position: relative;
+    font-family: "rigth";
+    font-size:30px;
+}
+.navbar a:after{
+    content: "";
+    position: absolute;
+    background-color: red;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.navbar a:hover:after{
+    width:100%
+}

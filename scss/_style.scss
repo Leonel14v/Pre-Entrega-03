@@ -1,0 +1,121 @@
+.img_animacion {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.img_animacion_list {
+    padding: 0;
+    display: flex;
+    width: 300%;
+    animation: movimiento 20s infinite alternate;
+    animation-timing-function: ease-in;
+}
+.img_item {
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+}
+.img_animacion_list_li {
+    list-style: none;
+    width: 100%;
+}
+ .col_parrafo {
+    font-family: "ban";
+    margin-top: 40px;
+    color: black;
+    font-size: 20px;
+ }
+ .col_img{
+    border-radius: 20px;
+    width: 750px;
+}
+.img_b1 {
+       width: 500px;
+       border-radius: 30px;
+}
+.img_b2 {
+    width: 500px;
+    border-radius: 30px;
+}
+.img_b3 {
+    width: 500px;
+    border-radius: 30px;
+}
+.img_convert {
+    transition: 0,5s;
+    object-fit: cover;
+}
+.img_convert:hover {
+    transform: scale(1.2);
+}
+.col_parrafo_b1 {
+    color: black;
+    font-family: "ban";
+    margin-top: 60px;
+}
+.col_parrafo_b2 {
+    color: black;
+    font-family: "ban";
+    margin-top: 60px;
+}
+.col_parrafo_b3 {
+    color: black;
+    font-family: "ban";
+    margin-top: 100px;
+}
+.titulo_b1 {
+    color: white;
+    font-family: "rigth";
+    text-align: center;
+}
+.titulo_b2 {
+    color: white;
+    font-family: "rigth";
+    text-align: center;
+}
+.col_parrafo_b4 {
+    color: black;
+    font-family: "ban";
+    margin-top: 50px;
+    font-size: 25px;
+}
+.col iframe {
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.col_parrafo_b5 {
+    color: black;
+    font-family: "ban";
+    font-size: 25px;
+    width: 900px;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.col_parrafo_b6 {
+    color: black;
+    font-family: "ban";
+    font-size: 20px;
+    text-align: center;
+    
+}
+.img_b4 {
+    width: 600px;
+    border-radius: 30px;
+    margin-left: -600px;
+    margin-top: 100px;
+}
+.inf_2{
+    width: 500px;
+    border-radius:40px;
+}
+.openings_black {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.openings_black iframe{ 
+    margin-left: 40px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
